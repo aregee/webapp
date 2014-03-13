@@ -2,4 +2,7 @@ node_modules
 dist
 .tmp
 .sass-cache
+.bowerrc
+bower.json
+package.json
 app/bower_components
