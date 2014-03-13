@@ -3,9 +3,8 @@ node_js:
   - '0.8'
   - '0.10'
 before_script:
-  -  npm install bower
-  -  npm install grunt-cli
-  -  sudo npm install
+  -  npm install 
+  -  npm install -g grunt-cli bower
   -  bower install
 script:  
   - grunt --gruntfile ng-app/Gruntfile.js test
