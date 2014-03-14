@@ -1,5 +1,6 @@
 before_script:
-  -  npm install -g grunt-cli bower --prefix ./ng-app/node_modules 
+  -  npm install -g grunt-cli bower
+  -  cd ng-app/;ln -s ../node_modules/ ./;cd ../
   -  bower install
 script:  
   - grunt --gruntfile ng-app/Gruntfile.js test
